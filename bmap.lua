@@ -3,7 +3,6 @@ _addon.version = '1.0'
 
 packets = require('packets')
 require('logger')
-require('radec/tprint')
 
 --It checks on zone and whenever you /bmap, not bothering to auto-check. Exercise for the reader if you want to make a bmap annoucer bot.
 --windower.register_event("time change", function(new, old)
