@@ -25,11 +25,12 @@ statics["Lamia March Time"] = 10
 statics["Maximum Force Count"] = 230
 statics["Force Gain <200"] = {}
 statics["Force Gain >200"] = {}
---Perhaps confusing? 'min' is the slowest forces gain rate, resulting in a later arrival
+--Perhaps confusing? 'min' is the slowest forces gain rate, resulting in a later arrival.
+--This is approximately the greatest range I've observed, but is not definitive and battles could start before or after any prediciton.
 statics["Force Gain <200"]['min'] = 0.4
-statics["Force Gain <200"]['max'] = 0.5
+statics["Force Gain <200"]['max'] = 0.6
 statics["Force Gain >200"]['min'] = 0.7
-statics["Force Gain >200"]['max'] = 1
+statics["Force Gain >200"]['max'] = 1.3
 
 --Rework with min/max gain estimates to give a window. This will gradually get closer as the bar fills, regardless of accuracy
 
